@@ -1,0 +1,49 @@
+body {
+  background-color: tan;
+}
+
+div {
+background-color: red;
+width: 200px;
+padding: 30px;
+height: 280px;
+margin:30px;
+display: inline-block;
+}
+
+@media screem and  (min-width: 500px){
+ body {
+    background-color: green;
+	font-size: 30px;
+	background-image: url('carro3.jpg'); 
+	color: white;
+  }
+  div{
+background-color: black;
+width: 100px;
+padding: 20px;
+height: 100px;
+margin: 60px;
+display: inline-block;   
+}
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+	font-size: 60px;
+	background-image: url('carro1.jpg'); 
+	color: red;
+  }
+  div{
+background-color: black;
+width: 300px;
+padding: 30px;
+height: 300px;
+margin:50px;
+display: inline-block;   
+}
+}
+
+
+
